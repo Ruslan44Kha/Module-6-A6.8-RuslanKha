@@ -1,0 +1,31 @@
+body {
+    background-color:goldenrod;
+}
+.container {
+    margin-top: 300px;
+}
+.progress {
+    position: relative;
+    height: 20px;
+}
+span {
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    max-width: 110px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(35, 12, 245, 0.822);
+}
+.load-bar {
+    background-color: rgba(241, 15, 15, 0.993);
+}
+.row {
+    margin: 25px 0;
+}
+.my-col {
+    display: inline-block;
+    max-width: 70px;
+}
